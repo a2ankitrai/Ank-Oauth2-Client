@@ -1,0 +1,5 @@
+
+ank:
+  oauth2:
+   jwt:
+     secret: 016DAEB185A0704DB3361AF6423D0CE7   
