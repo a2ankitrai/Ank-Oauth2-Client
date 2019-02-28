@@ -18,7 +18,7 @@ public class AnkOauth2Properties {
 	 * to the users, etc.
 	 * can be configured in application.properties
 	 */
-	private String applicationUrl = "http://localhost:6001";
+	private String applicationUrl = "http://localhost:6001/";
 
 	/**
 	 * The default URL to redirect to after a user logs in using

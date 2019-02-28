@@ -86,8 +86,6 @@ public class AnkOauth2SecurityConfiguration {
 
 	protected void oauth2Client(HttpSecurity http) throws Exception {
 
-		System.out.println("properties inside AnkOauth2SecurityConfiguration: oauth2Client" + properties);
-
 		http.oauth2Login().authorizationEndpoint()
 				.authorizationRequestRepository(new HttpCookieOAuth2AuthorizationRequestRepository(properties)).and()
 				.successHandler(oauth2AuthenticationSuccessHandler).failureHandler(oauth2AuthenticationFailureHandler)

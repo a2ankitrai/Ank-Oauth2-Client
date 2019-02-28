@@ -47,7 +47,7 @@ public abstract class AnkOauth2WebTokenAuthenticationFilter extends OncePerReque
 				try {
 					System.out.println(SecurityContextHolder.getContext().getAuthentication().getPrincipal());
 				} catch (Exception e) {
-					logger.error("principal not exist -" + e.getMessage());
+					logger.error("principal not exist - " + e.getMessage());
 				}
 
 				SecurityContextHolder.getContext().setAuthentication(auth);
